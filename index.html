@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" class="rel" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- header starts here -->
+    <header class="header">
+      <a href="#home" class="logo">Portfolio</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Amethyst Ubay</h1>
+        <h3>And I'm a <span>Junior Full-Stack Web Developer.</span></h3>
+        <p>
+          A dedicated Junior Developer striving to enhance my expertise and
+          learning in order to excel in the realm of web development and become
+          a proficient-developer.
+        </p>
+
+        <div class="social-media">
+          <a href="https://www.facebook.com/amethyst.ubay/" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/amethyst.ubay/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/amethyst0313" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/amethystubay/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <a
+          href="image/CV-UBAY, AMETHYST B.pdf"
+          target="_blank"
+          class="btn"
+          download
+          >Download CV</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="image/home.png" />
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image/about.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About<span> Me</span></h2>
+        <h3>Junior Full-Stack Web Developer</h3>
+        <p>
+          Attended a 3-month Full Stack Web Development Bootcamp, and as a
+          Junior Web Developer with experience in building and maintaining web
+          applications, I am proficient in HTML, CSS, JavaScript, Bootstrap and
+          continously learning React.<br /><br />
+          During our bootcamp, I noticed that I am good in front-end, that's why
+          the feedback from my trainer has reinforced my proficiency in
+          front-end development, acknowledging my keen eye for design that
+          elevates user experience.
+        </p>
+        <a
+          href="image/Full Stack Web Development Certificate (Kodego).png"
+          target="_blank"
+          class="btn"
+          >View Certificate</a
+        >
+      </div>
+    </section>
+
+    <!-- service section -->
+    <section class="services" id="services">
+      <h2 class="heading">My<span> Background</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Education</h3>
+          <p>
+            Calamba Doctors' College (2015-2019)<br />Bachelor of Science in
+            Tourism Management
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-solid fa-briefcase"></i>
+          <h3>Work Experience</h3>
+          <p>
+            Teleperformance - CSR (2019-2022) <br />Iqor - Specialist
+            (2022-2023) <br />
+            Kodego - Full Stack Developer
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-solid fa-gear"></i>
+          <h3>Skills</h3>
+          <p>
+            HTML, CSS, Bootstrap, JavaScript, Jquery, React.JS, Node.JS,
+            GitBash, GitHub, SQL, Laravel
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="projects" id="projects">
+      <h2 class="heading">Latest<span> Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="image/project1.png" />
+          <div class="portfolio-layer">
+            <h4>The Garden of Eat'n</h4>
+            <p>
+              A delightful online destination where foodies can explore a
+              diverse menu.<br />
+              Tools Used: HTML, CSS, JS, GitBash, GitHub
+            </p>
+            <a
+              href="https://amethyst0313.github.io/The-Garden-of-Eat-n/"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/project2.png" />
+          <div class="portfolio-layer">
+            <h4>Portfolio</h4>
+            <p>
+              A collection of projects and achievements to justify a person's
+              knowledge and learnings.<br />Tools Used: HTML, CSS, GitBash,
+              GitHub
+            </p>
+            <a href="https://amethyst0313.github.io/Portfolio/"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/project3.png" />
+          <div class="portfolio-layer">
+            <h4>Add-To-Cart</h4>
+            <p>
+              Illustrates how to add an item to the cart, and the quantity is
+              determined by how many times the user clicks on the item.<br />Tools
+              Used: HTML, CSS, JS, GitBash, GitHub
+            </p>
+            <a
+              href="https://amethyst0313.github.io/Add-To-Cart/"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/project4.png" />
+          <div class="portfolio-layer">
+            <h4>Rock-Paper-Scissor</h4>
+            <p>
+              A classic hand game where players choose rock, paper, or scissors
+              to beat the computer.<br />Tools Used: HTML, CSS, JS, GitBash,
+              GitHub
+            </p>
+            <a
+              href="https://amethyst0313.github.io/Rock-Paper-Scissors-Game/"
+              target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/project5.png" />
+          <div class="portfolio-layer">
+            <h4>To-Do-List App</h4>
+            <p>
+              Helps you organize and keep track of tasks.<br />Tools Used: HTML,
+              CSS, JS, React, GitBash, GitHub
+            </p>
+            <a href="https://amethyst0313.github.io/To-Do-List/" target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="image/project6.png" />
+          <div class="portfolio-layer">
+            <h4>Calculator</h4>
+            <p>
+              Performs mathematical calculations.<br />Tools Used: HTML, CSS,
+              GitBash, GitHub
+            </p>
+            <a href="https://amethyst0313.github.io/Calculator/" target="_blank"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contact-info" id="contact">
+        <div class="contact contact-1">
+          <i class="fa-solid fa-envelope"></i>
+          <span>amethystubay23@gmail.com</span>
+        </div>
+        <div class="contact contact-1">
+          <i class="fa-solid fa-phone"></i>
+          <span>+63 908 820 1748</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
