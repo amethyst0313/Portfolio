@@ -374,7 +374,7 @@ footer .contact-info span {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 374px) {
   .home-img {
     display: none;
   }
