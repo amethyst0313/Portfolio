@@ -393,4 +393,7 @@ footer .contact-info span {
   .home-content p {
     font-size: 1.4rem;
   }
+  footer .contact-info {
+    display: block;
+  }
 }
